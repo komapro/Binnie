@@ -442,7 +442,7 @@ public enum Food implements IItemMiscProvider {
 	}
 
 	public void addOil(final int time, final int amount, final int mulch) {
-		RecipeManagers.squeezerManager.addRecipe(time, this.get(1), Fluids.SEED_OIL.getFluid(amount), Mods.Forestry.stack("mulch"), mulch);
+		RecipeManagers.squeezerManager.addRecipe(time, this.get(1), Fluids.JUICE.getFluid(amount), Mods.Forestry.stack("mulch"), mulch);
 	}
 
 	protected Food registerCrop(final String string) {
