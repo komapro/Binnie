@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IsolatorRecipeWrapper implements IRecipeWrapper {
-	private static final FluidStack ETHANOL = Fluids.BIO_ETHANOL.getFluid(IsolatorLogic.ETHANOL_PER_PROCESS);
+	private static final FluidStack ETHANOL = Fluids.ETHANOL.getFluid(IsolatorLogic.ETHANOL_PER_PROCESS);
 	private static final ItemStack EMPTY_SEQUENCE = GeneticsItems.EmptySequencer.get(1);
 	private static final ItemStack ENZYME = GeneticsItems.Enzyme.get(1);
 
